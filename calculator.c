@@ -2,6 +2,8 @@
 #include <stdio.h>
 
 int main(void) {
-  int x = get_int("What's x?");
+  float x = get_int("What's x? ");
+  float y = get_int("What's y? ");
+
+  printf("%f\n", x/y);
 }
-		  
